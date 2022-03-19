@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(250, 250, 250);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            font-family: 'Rock Salt', cursive;
+            color: rgb(5, 5, 5);
+            text-align: center;
+            box-shadow: inset 1px 2px 13px black
+        }
+
+        nav {
+            background-color: rgba(92, 90, 88, 0.719);
+            padding: 3px;
+            text-align: center;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.37);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+            
+        }
+        
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        #assuntos {
+            background-color: lightgrey;
+            
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(167, 167, 167);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>    
+        <h1>Timão News</h1>
+        <nav>
+            <a href="#" target="_blank">Site Oficial Corinthians</a>
+            <a href="#" target="_blank">Meu Timão</a>
+            <a href="#" target="_blank">Globo Esporte</a>
+            <a href="#" target="_blank">Gazeta Esportiva</a>
+            <a href="#" target="_blank">Identidade Corinthiana</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Esportes</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+             Distinctio error ipsam corporis quidem, aliquam, voluptates consectetur dolore numquam cum fugit quas dolor at iste accusamus. Quidem nihil ex ipsa aliquid?</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus excepturi dicta sunt nam. Commodi dignissimos earum sapiente 
+                    voluptate sint porro corporis laboriosam ducimus minus qui eaque neque ratione, odio enim.</p>
+                <aside>
+                    <p>Artigo escrito por Liiz da Sikva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Rodrigo Macedo</p>
+    </footer>
+    <div id="bola">
+        
+    </div>
+</body>
+</html>

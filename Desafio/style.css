@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Francois+One&display=swap');
+
+:root {
+    --cor0: #2D4B73;
+    --cor1: #253C59;
+    --cor2: #99B4BF;
+    --cor3: #D9B70D;
+    --cor4: #BF8D30;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+
+header {
+    background-color: var(--cor1);
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Francois One', sans-serif;
+    font-weight: 30px;
+    color: #D9B70D;
+    padding-top: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.863);
+}
+
+header h2 {
+    background-color: #99b4bf;
+    font-family: 'Advent Pro', sans-serif;
+    font-style: italic;
+    color: var(--cor1);
+    padding: 10px;
+}
+
+nav {
+    background-color: #BF8D30;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    background-color: #99b4bf;
+    padding: 6px;
+}
+
+
+nav i {
+    padding: 8px;
+}

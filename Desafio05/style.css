@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    flex-direction: column;
+    display: flex;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    padding: auto;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 20vh;
+}
+
+body {
+    background-color: rgb(177, 189, 211);
+    font-family: 'Playfair Display', serif;
+    align-items: center;
+}
+
