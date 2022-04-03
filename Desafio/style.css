@@ -11,6 +11,8 @@
 
 body {
     background-color: var(--cor0);
+    align-items: center;
+    
 }
 
 
@@ -41,6 +43,7 @@ nav {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    font-style: none;
 }
 
 nav a {
@@ -55,4 +58,20 @@ nav a:hover {
 
 nav i {
     padding: 8px;
+}
+
+.box {
+    background-color: var(--cor2);
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.box img{
+    max-width: 350px;
+    max-height: 350px;
+    
 }
